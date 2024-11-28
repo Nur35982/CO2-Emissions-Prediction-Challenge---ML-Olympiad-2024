@@ -58,13 +58,4 @@ The dataset captures essential socio-economic and environmental factors influenc
 - **RMSE Score**: Achieved competitive RMSE on both validation and test sets.
 - **Leaderboard Rank**: Secured **22nd place** out of numerous teams, showcasing our capability in tackling real-world environmental challenges.
 
----
 
-## 📜 Submission Format
-The submission file adhered to the following structure:
-```csv
-Country Name,2016 [YR2016],2017 [YR2017],2018 [YR2018],2019 [YR2019],2020 [YR2020],2030 [YR2030]
-Afghanistan,0,0,0,0,0,0
-Albania,0,0,0,0,0,0
-Algeria,0,0,0,0,0,0
-...
