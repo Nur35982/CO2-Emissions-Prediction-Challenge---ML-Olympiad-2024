@@ -32,30 +32,9 @@ The dataset captures essential socio-economic and environmental factors influenc
 
 ---
 
-## 🧠 Machine Learning Approach
-### Features:
-- Developed using **Python** and popular libraries like **pandas**, **scikit-learn**, and **TensorFlow**.  
-- Explored a range of **regression algorithms**, including:
-  - Random Forest Regressor.
-  - Gradient Boosting Machines.
-  - XGBoost.
-  - Neural Networks.
-
-### Model Selection:
-- **Final Model**: [Selected Model Name, e.g., XGBoost]  
-- **Evaluation Metric**: **Root Mean Squared Error (RMSE)**.  
-- **Training Strategy**:
-  - Train models on data from **2000-2015**.
-  - Validate predictions for **2016-2020**.
-  - Forecast CO2 emissions for **2030**.
-
-### Hyperparameter Tuning:
-- Optimized parameters using **grid search** and **cross-validation** to improve prediction accuracy.
-
----
 
 ## 📈 Results
-- **RMSE Score**: Achieved competitive RMSE on both validation and test sets.
+
 - **Leaderboard Rank**: Secured **22nd place** out of numerous teams, showcasing our capability in tackling real-world environmental challenges.
 
 
