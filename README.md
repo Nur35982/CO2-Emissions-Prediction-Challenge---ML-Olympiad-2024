@@ -32,9 +32,36 @@ The dataset captures essential socio-economic and environmental factors influenc
 
 ---
 
-
 ## 📈 Results
 
 - **Leaderboard Rank**: Secured **22nd place** out of numerous teams, showcasing our capability in tackling real-world environmental challenges.
 
+### 🧠 Model Details
 
+To address the forecasting task, we developed and evaluated several time-series models:
+
+- **ARIMA (AutoRegressive Integrated Moving Average)**  
+  - Classical statistical model used to establish a baseline and analyze temporal trends.
+
+- **LSTM (Long Short-Term Memory)** Neural Network  
+  - Leveraged deep learning to capture long-term dependencies in multivariate time series.  
+  - Employed `MinMaxScaler` for data normalization.  
+  - Network architecture included:
+    - **LSTM layers** to model sequence data.
+    - **Dense layers** for output mapping.
+    - **Dropout layers** to prevent overfitting and improve generalization.
+
+These models were trained on historical data (2000–2020) and used to generate predictions for CO2 emissions per capita for 2030.
+
+---
+
+## 🔍 Insights
+
+- Incorporating both economic and environmental indicators helped improve the model’s ability to understand emission trends.
+- LSTM models outperformed ARIMA in capturing complex temporal patterns in high-dimensional datasets.
+
+---
+
+## 📫 Contact
+
+For more information, collaboration, or access to the project code, feel free to reach out to **Team NSU_Sickle**.
